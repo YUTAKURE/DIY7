@@ -8,6 +8,7 @@ import { PersonComponent } from './components/person/person.component';
 import { PlusComponent } from './plus/plus.component';
 import { MinusComponent } from './minus/minus.component';
 import { NumberComponent } from './number/number.component';
+import { ResetComponent } from './/reset/reset.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NumberComponent } from './number/number.component';
     PlusComponent,
     MinusComponent,
     NumberComponent,
+    ResetComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

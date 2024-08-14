@@ -19,4 +19,9 @@ export class AppComponent {
     this.count--;
     console.log(this.count);
   }
+
+  reset() {
+    this.count = 0;
+    console.log(this.count);
+  }
 }

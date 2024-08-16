@@ -4,7 +4,7 @@ form {
   width: 200px;
   height: 220px;
   padding: 15px 10px;
-  box-shadow: 2px 2px 4px #888888;
+  box-shadow: 0 2px 4px #888888;
   margin: 0 auto;
 }
 
@@ -13,7 +13,7 @@ label {
 }
 
 input {
-  background: #85e0e6cf;
+  background: #92e1e7d8;
   width: 90%;
   margin: 0 auto;
 }

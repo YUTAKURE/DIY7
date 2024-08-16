@@ -1,37 +1,12 @@
 <style>
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  main {
-    max-width: 200px;
-    height: 150px;
-    width: 100%;
-    margin: 0 auto;
-    background: rgb(166, 225, 255);
-  }
-
-  .plusminus {
-    display: flex;
-    align-items: end;
-  }
 </style>
 
 <main>
-  <h1>DIY 5-7</h1>
+  <h2>DIY7</h2>
   <div>
-    <h2>First input output</h2>
-    <app-number [num]="count"></app-number>
+    <app-simple-form></app-simple-form>
   </div>
-  <div class="plusminus">
-    <app-plus (plusEvent)="plus()"></app-plus>
-    <app-minus (click)="minus()"></app-minus>
-  </div>
-  <div>
-    <app-reset (resetEvent)="reset()"></app-reset>
-  </div>
+
 </main>
 
 

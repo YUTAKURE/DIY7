@@ -1,0 +1,21 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <label for="firstName">First Name: </label>
+    <input id="firstName" type="text" formControlName="firstName">
+
+    <label for="lastName">Last Name: </label>
+    <input id="lastName" type="text" formControlName="lastName">
+
+    <label for="country">Country: </label>
+    <input id="country" type="text" formControlName="country">
+
+    <label for="note">Note: </label>
+    <input id="note" type="text" formControlName="note">
+    <div>
+        <button type="submit">
+            submit
+        </button>
+        <button type="button" (click)="onReset()">
+            reset
+        </button>
+    </div>
+</form>
